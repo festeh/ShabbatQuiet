@@ -17,10 +17,7 @@ class MainApp extends StatelessWidget {
             children: [
               const Text(
                 'Shabbat Shalom!',
-                style: TextStyle(
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 16),
               const Text(
@@ -28,9 +25,8 @@ class MainApp extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 18,
                   fontStyle: FontStyle.italic,
-                  color: Colors.blue,
+                  // color: Colors.blue,
                 ),
-              ),
               ),
             ],
           ),
