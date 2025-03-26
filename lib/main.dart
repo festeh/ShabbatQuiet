@@ -23,20 +23,14 @@ class MainApp extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 16),
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                decoration: BoxDecoration(
-                  color: Colors.blue.shade100,
-                  borderRadius: BorderRadius.circular(8),
+              const Text(
+                'Locale: Berlin, Germany',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontStyle: FontStyle.italic,
+                  color: Colors.blue,
                 ),
-                child: const Text(
-                  'Locale: Berlin, Germany',
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontStyle: FontStyle.italic,
-                    color: Colors.blue,
-                  ),
-                ),
+              ),
               ),
             ],
           ),
